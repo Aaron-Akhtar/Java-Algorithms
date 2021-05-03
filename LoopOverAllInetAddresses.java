@@ -10,7 +10,8 @@ class Main {
                     (x == 192 && f == 168)) continue;
                 for (int d = 0; d < 256; d++) {
                     for (int g = 0; g < 256; g++) {
-                        //do
+                        final String ip_address = x + "." + f + "." + d + "." + g;
+                        //do something
                     }
                 }
             }
