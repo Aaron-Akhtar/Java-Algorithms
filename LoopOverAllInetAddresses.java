@@ -3,7 +3,7 @@ Loops over every IP in the world
 */
 class Main {
     public static void main(String[] args) {
-        for (int x = 0; x < 256; x++) {
+        for (int x = 1; x < 256; x++) {
             if (x == 10) continue;
             for (int f = 0; f < 256; f++) {
                 if ((x == 172 && (f >= 16 && f <= 31)) ||
